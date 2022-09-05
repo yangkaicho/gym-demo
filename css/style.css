@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(228, 227, 226);
+    font-family: 新細明體, 標楷體, 微軟正黑體, sans-serif;
+
+}
+
+.title {
+
+    /* padding: 10px 20px 30px 40px; */
+    /* margin: 12px; */
+    color: #0d0dbb;
+    background-color: aqua;
+    margin: 0;
+    font-family: 標楷體;
+    font-size: 2rem;
+    height: 4rem;
+    border-radius: 0.8rem;
+    line-height: 64px;
+    text-align: center;
+}
+
+.test-1 {
+    background-color: blanchedalmond;
+    margin: 6px 0px;
+    padding: 12px;
+    border: 2px solid salmon;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.test-2 {
+    background-color: rgb(252, 140, 252);
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.test-3 {
+    color: red;
+    font-size: 24px;
+
+}
+
+.sub-title {
+    display: inline-block;
+    background-color: #44516f;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    margin: 5px;
+    line height: 3rem;
+    padding-left: 1rem
+}
+
+#container {
+    width: 80%;
+    margin: 12px auto;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+
+}
+
+li {
+    margin-left: 40px;
+}
+
+ul a {
+    text-decoration: none;
+
+}
+
+ul a:hover {
+    color: greenyellow
+}
+
+#img {
+    background-color: burlywood;
+    padding: 6px
+}
+
+#img img {
+    background-color: white;
+    padding: 3px;
+    width: 30%;
+
+}
+
+#main-table {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#main-table th {
+    background-color: coral;
+    color: white;
+
+}
+
+#main-table td {
+    background-color: aqua;
+}
+
+#main-table td:first-child {
+    background-color: wheat;
+
+}
+
+#main-table td:nth-child(even) {
+    background-color: cadetblue;
+}
+
+form {
+    background-color: darkred;
+    padding: 12px 0;
+    margin: 6px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+input,
+textarea,
+label {
+    font-size: 20px;
+    text-align: center;
+    margin: 6px;
+}
+
+button[type='submit'] {
+    background-color: greenyellow;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+
+}
