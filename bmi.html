@@ -19,30 +19,49 @@
             }
 
         }
+
+        #comment {
+            background-color: aqua;
+            width: 80%;
+            margin: 0 auto;
+            height: 128px;
+            font-size: 48px;
+            line-height: 128px;
+            border-radius: 12px;
+        }
     </style>
+
 </head>
 
 <body>
     <div id="container">
+        <p>版本:v1.0</p>
         <div class="title">BMI計算機</div>
+        <!-- 後端傳遞值 -->
         <form action="">
+
             <p>
                 <label for="name">姓名:</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" placeholder="姓名">
             </p>
             <p>
                 <label for="height">身高:</label>
-                <input type="number" name="height" id="height" required step="0.5">
+                <input type="number" name="height" id="height" required step="0.5" placeholder="身高">
             </p>
             <p>
                 <label for="kg">體重:</label>
-                <input type="number" name="kg" id="kg" required>
+                <input type="number" name="kg" id="kg" required placeholder="體重">
             </p>
-            <button type='submit'>計算</button>
+            <button type='submit' id="calc">計算</button>
+            <p id="comment">
+                BMI:<span class="bmi"></span>
+
+            </p>
         </form>
         <br>
         <a href="./index.html">回首頁</a>
     </div>
+    <script src="./js/bmi.js"></script>
 </body>
 
 </html>
